@@ -1,0 +1,23 @@
+# FastAPI and server
+fastapi==0.115.6
+uvicorn[standard]==0.32.1
+python-dotenv==1.0.1
+pydantic==2.10.3
+pydantic-settings==2.6.1
+
+# MongoDB - PyMongo Async (NOT Motor - deprecated May 2025)
+pymongo==4.10.1
+
+# Data generation and processing
+numpy==2.2.0
+pandas==2.2.3
+
+# ML and Anomaly Detection
+scikit-learn==1.6.0
+pyspark==3.5.4
+
+# Date/time handling
+python-dateutil==2.9.0
+
+# CORS
+starlette==0.41.3
